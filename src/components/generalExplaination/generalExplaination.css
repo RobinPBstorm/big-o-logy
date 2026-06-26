@@ -1,0 +1,56 @@
+.axis {
+    stroke: #555;
+    stroke-width: 2;
+}
+
+.grid {
+    stroke: #ddd;
+    stroke-width: 1;
+}
+
+.label {
+    font: 14px sans-serif;
+    fill: #333;
+}
+
+.title {
+    font: 20px sans-serif;
+    font-weight: bold;
+    fill: #222;
+}
+
+.o1 {
+    fill: none;
+    stroke: #2E86DE;
+    stroke-width: 3;
+}
+
+.olog {
+    fill: none;
+    stroke: #27AE60;
+    stroke-width: 3;
+}
+
+.on {
+    fill: none;
+    stroke: #F39C12;
+    stroke-width: 3;
+}
+
+.onlog {
+    fill: none;
+    stroke: #8E44AD;
+    stroke-width: 3;
+}
+
+.on2 {
+    fill: none;
+    stroke: #E74C3C;
+    stroke-width: 3;
+}
+
+.o2n {
+    fill: none;
+    stroke: #000;
+    stroke-width: 3;
+}
