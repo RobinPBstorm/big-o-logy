@@ -82,3 +82,24 @@ Le projet est maintenant lancé
 Le port par défaut est le 5173
 
 Pour changer le port du projet, on donner le paramètre --port dans le package.json (pour le scripts 'dev')
+
+
+## Bonus: Deployer sur le github page
+
+un pipeline a été créé pour que le github montre le résultat en cas de push ou de pull request sur la branche main.
+
+Ce pipeline est dans .github/workflow
+
+Un ajout dans le vite.config.js a été fait
+
+```js
+export default defineConfig({
+  plugins: [react()],
+  // ajout de la base du projet (nom du repo git)
+  base: '/big-o-logy/',
+})
+```
+
+Sur github, modifions les paramètres dans pages:
+
+Pour Build and Deployment, choisissons "Github Actions"
