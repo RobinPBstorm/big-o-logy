@@ -51,6 +51,16 @@
 
 .o2n {
     fill: none;
-    stroke: #000;
+    stroke: #1d46cb;
     stroke-width: 3;
+}
+
+.onf {
+    fill: none;
+    stroke: #ef4dd6;
+    stroke-width: 3;
+}
+
+.reduced {
+    opacity: 20%;
 }
